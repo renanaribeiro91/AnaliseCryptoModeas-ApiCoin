@@ -1,4 +1,4 @@
-// SignInButton.js
+
 
 import React, { useState } from "react";
 import styled, { css } from "styled-components";
@@ -8,7 +8,7 @@ import SignModal from "../Modal/SignModal";
 interface SignInButtonProps {
   children: React.ReactNode;
   isModal?: boolean;
-  onClick?: () => void; 
+  onClick?: () => void;
 }
 
 const StyledButton = styled.button<{ isModal?: boolean }>`
